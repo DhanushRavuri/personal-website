@@ -1,13 +1,13 @@
 const degrees = [
   {
-    school: 'The Pennsylvania State University',
-    degree: 'M.S. Computer Science and Engineering',
-    link: 'https://www.psu.edu/',
-    year: 2026,
+    school: 'The University of Massachusetts, Amherst',
+    degree: 'M.S. Computer Science',
+    link: 'https://www.umass.edu/',
+    year: 2027,
   },
   {
     school: 'Indian Institute of Technology Roorkee',
-    degree: 'B.Tech Electrical Engineering',
+    degree: 'B.Tech Mechanical Engineering',
     link: 'https://www.iitr.ac.in/',
     year: 2022,
   },

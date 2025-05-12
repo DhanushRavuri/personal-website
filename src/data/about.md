@@ -9,10 +9,16 @@ I am a SDE-II at Flipkart Internet Private Limited, a subsidiary of Walmart Inc.
 - My first exposure to programming came during my freshman year, where I learned C++. This experience introduced me to structured problem-solving and computational thinking.
 - My introduction to AI began during my internship at Spur.fit, where I developed solutions for motion tracking using advanced deep learning techniques. This experience reinforced my interest in AI and its practical applications.
 - After graduating, I started my professional journey at Flipkart as a SDE1. Here, I gained hands-on experience working on large-scale distributed systems, optimizing real-time operations, and contributing to impactful solutions for millions of users.
-- Soon after two years, I was promoted to SDE2 for leading critical features and driving measurable team impact. This role gave me the opportunity to own key components, boost system performance, and deliver results under tight timelines.
+- Soon after two years, I was promoted to SDE2 for designing and implementing critical features and driving measurable team impact. This role gave me the opportunity to own key components, boost system performance, and deliver results under tight timelines.
 - In 2025, I decided to pursue a Master’s in Computer Science at The University of Massachusetts, Amherst, to deepen my understanding of core computer science concepts and further enhance my technical expertise.
 
 Ask me in person for other stories that I'm afraid to share with the internet.
+
+# SOME OF THE BOOKS I READ
+- Head First java
+- Clean code
+- How to Write Unmaintainable Code
+- Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
 
 # I Like
 
