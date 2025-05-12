@@ -138,6 +138,23 @@ body {
     }
   }
 
+  // Theme Toggle Button Styles
+  .theme-toggle {
+    display: inline-flex; // Use flex to center content
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.75em; // Adjust padding as needed
+    height: inherit; // Match header height
+    line-height: inherit; // Match header line-height
+    font-size: 1.2em; // Adjust size as needed
+    border-left: solid 1px _palette(border); // Match sibling style
+    margin-left: 0.5em; // Add some space
+
+    &:hover {
+      background-color: _palette(border-bg);
+    }
+  }
+
   @include breakpoint(medium) {
     .links {
       display: none;

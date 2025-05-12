@@ -42,15 +42,54 @@ $font: (
   kerning-heading: 0.25em,
 );
 
-// Palette.
+// Palette - Using CSS Variables for theming
+:root {
+  // Light Theme Colors (Default)
+  --color-bg: #ffffff;
+  --color-bg-alt: #f4f4f4;
+  --color-fg: #646464;
+  --color-fg-bold: #3c3b3b;
+  --color-fg-light: #aaaaaa;
+  --color-border: rgba(160, 160, 160, 0.3);
+  --color-border-bg: rgba(160, 160, 160, 0.075);
+  --color-border-alt: rgba(160, 160, 160, 0.65);
+  --color-accent: #2e59ba;
+  --color-accent-rgb: 46, 89, 186; // RGB for #2e59ba
+
+  // Dark Theme Colors
+  --dark-color-bg: #1a1a1a;
+  --dark-color-bg-alt: #2a2a2a;
+  --dark-color-fg: #cccccc;
+  --dark-color-fg-bold: #eeeeee;
+  --dark-color-fg-light: #888888;
+  --dark-color-border: rgba(100, 100, 100, 0.3);
+  --dark-color-border-bg: rgba(100, 100, 100, 0.075);
+  --dark-color-border-alt: rgba(100, 100, 100, 0.65);
+  --dark-color-accent: #5d8eff;
+  --dark-color-accent-rgb: 93, 142, 255; // RGB for #5d8eff
+}
+
+body.dark {
+  --color-bg: var(--dark-color-bg);
+  --color-bg-alt: var(--dark-color-bg-alt);
+  --color-fg: var(--dark-color-fg);
+  --color-fg-bold: var(--dark-color-fg-bold);
+  --color-fg-light: var(--dark-color-fg-light);
+  --color-border: var(--dark-color-border);
+  --color-border-bg: var(--dark-color-border-bg);
+  --color-border-alt: var(--dark-color-border-alt);
+  --color-accent: var(--dark-color-accent);
+  --color-accent-rgb: var(--dark-color-accent-rgb);
+}
+
 $palette: (
-  bg: #ffffff,
-  bg-alt: #f4f4f4,
-  fg: #646464,
-  fg-bold: #3c3b3b,
-  fg-light: #aaaaaa,
-  border: rgba(160, 160, 160, 0.3),
-  border-bg: rgba(160, 160, 160, 0.075),
-  border-alt: rgba(160, 160, 160, 0.65),
-  accent: #2e59ba,
+  bg: var(--color-bg),
+  bg-alt: var(--color-bg-alt),
+  fg: var(--color-fg),
+  fg-bold: var(--color-fg-bold),
+  fg-light: var(--color-fg-light),
+  border: var(--color-border),
+  border-bg: var(--color-border-bg),
+  border-alt: var(--color-border-alt),
+  accent: var(--color-accent),
 );
