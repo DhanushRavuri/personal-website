@@ -10,8 +10,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initialTheme = savedTheme ? savedTheme === 'dark' : prefersDark;
+    const initialTheme = savedTheme ? savedTheme === 'dark' : true;
     setIsDark(initialTheme);
     if (initialTheme) {
       document.body.classList.add('dark');

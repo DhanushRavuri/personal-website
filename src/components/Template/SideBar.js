@@ -22,8 +22,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Dhanush. I am an upcoming Master&apos;s student in{' '}
-        <a href="https://www.cics.umass.edu/academics/ms-computer-science-campus">CS at University of Massachusetts, Amherst</a> and a alumnus of {' '}
+        Hi, I&apos;m Dhanush. I am an incoming Master&apos;s student in{' '}
+        <a href="https://www.cics.umass.edu/academics/ms-computer-science-campus">CS at University of Massachusetts, Amherst</a>, starting in Fall 2025, and a alumnus of {' '}
         <a href="https://www.iitr.ac.in/">IIT Roorkee</a>. I&apos;m passionate about backend development, distributed systems and artificial intelligence.
         Currently, I work as an SDE-II at {' '}
         <a href="https://www.linkedin.com/company/flipkart/">Flipkart Internet Private Limited</a>,

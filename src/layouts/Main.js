@@ -12,7 +12,7 @@ const Main = (props) => (
     <Analytics />
     <ScrollToTop />
     <Helmet
-      titleTemplate="%s | Dhanush Ravuri"
+      titleTemplate="Dhanush Ravuri | %s"
       defaultTitle="Dhanush Ravuri"
       defer={false}
     >

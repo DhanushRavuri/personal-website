@@ -1,6 +1,19 @@
 # Intro
 
-I am a SDE-II at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., and will be joining the University of Massachusetts Amherst as a Master’s student in Computer Science starting September 2025.
+I am a SDE-II at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., and will be joining the University of Massachusetts Amherst as a Master’s student in Computer Science starting Fall 2025.
+
+# Experience Timeline
+- **Sep 2025 – May 2027**  
+  _Master's in Computer Science @ The University of Massachusetts, Amherst_
+
+- **Sep 2024 – Aug 2025**  
+  _SDE-2 @ Flipkart_
+
+- **Jun 2022 – Sep 2024**  
+  _SDE-1 @ Flipkart_
+
+- **Jul 2018 – May 2022**  
+  _B.Tech in Mechanical Engineering @ IIT Roorkee_
 
 # Some History
 
@@ -18,7 +31,7 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - Head First java
 - Clean code
 - How to Write Unmaintainable Code
-- Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
+- Design Patterns (Gang of Four)
 
 # I Like
 
