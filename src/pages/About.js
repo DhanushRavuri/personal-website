@@ -21,7 +21,7 @@ const About = () => {
     .filter((s) => s.length).length;
 
   return (
-    <Main title="About" description="Learn about Dheeraj Kodakandla">
+    <Main title="About" description="Learn about Dhanush Ravuri">
       <article className="post markdown" id="about">
         <header>
           <div className="title">

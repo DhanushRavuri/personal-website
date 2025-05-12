@@ -1,28 +1,25 @@
 # Intro
 
-I am a Master’s student in Computer Science and Engineering at Penn State University, where I am currently exploring ways to optimize heuristic selection in SAT solvers using reinforcement learning. My research also focuses on leveraging large language models (LLMs) to efficiently solve SMT problems, aiming to advance the capabilities of automated reasoning systems.
+I am a SDE-II at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., and will be joining the University of Massachusetts Amherst as a Master’s student in Computer Science starting September 2025.
 
 # Some History
 
 - I was born and raised in India, a country known for its rich cultural diversity and technological talent. Growing up, I developed a keen interest in mathematics, which inspired me to pursue a career in engineering.
-- I began my undergraduate studies at IIT Roorkee in 2018, majoring in Electrical Engineering. This laid the foundation for my technical and analytical skills, which I continue to build upon today.
+- I began my undergraduate studies at Indian Institute of Technology, Roorkee in 2018, majoring in Mechanical Engineering. This laid the foundation for my technical and analytical skills, which I continue to build upon today.
 - My first exposure to programming came during my freshman year, where I learned C++. This experience introduced me to structured problem-solving and computational thinking.
-- In 2019, I joined the IIT Roorkee Motorsports Team, a student-led initiative to build electric race cars for national and international competitions. By my final year, I led the Accumulator Subsystem of the team.
 - My introduction to AI began during my internship at Spur.fit, where I developed solutions for motion tracking using advanced deep learning techniques. This experience reinforced my interest in AI and its practical applications.
-- After graduating, I started my professional journey at Zomato as a Software Development Engineer. Here, I gained hands-on experience working on large-scale distributed systems, optimizing real-time operations, and contributing to impactful solutions for millions of users.
-- In 2023, I joined ALLEN Digital, where I worked on scalable backend systems in a fast-paced startup environment. This role provided me with an opportunity to take ownership of critical components, enhance system performance, and deliver results under tight timelines.
-- In 2024, I decided to pursue a Master’s in Computer Science and Engineering at Penn State University to deepen my understanding of core computer science concepts. Currently, my research focuses on optimizing heuristic selection in SAT solvers using reinforcement learning and leveraging LLMs to solve SMT problems efficiently.
+- After graduating, I started my professional journey at Flipkart as a SDE1. Here, I gained hands-on experience working on large-scale distributed systems, optimizing real-time operations, and contributing to impactful solutions for millions of users.
+- Soon after two years, I was promoted to SDE2 for leading critical features and driving measurable team impact. This role gave me the opportunity to own key components, boost system performance, and deliver results under tight timelines.
+- In 2025, I decided to pursue a Master’s in Computer Science at The University of Massachusetts, Amherst, to deepen my understanding of core computer science concepts and further enhance my technical expertise.
 
 Ask me in person for other stories that I'm afraid to share with the internet.
 
 # I Like
 
-- Running
-- Cricket
-- Space
-- Summer
+- Chess
+- Badminton
 - Books
-- Podcasts
+- Movies
 
 <!-- # Travel / Geography
 
@@ -40,18 +37,21 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 
 # Fun Facts
 
-- I have a love-hate relationship with coffee: it powers my work but makes me question my sleep schedule.
-- I decided to pursue a Master’s degree because I wanted to understand why my own scripts from professional work sometimes got executed "by chance."
+- I write scripts for even the smallest tasks, too lazy to do it manually when the computer can handle it for me.
+- I spend more time perfecting my emails than I do writing code
+<!-- - I have a love-hate relationship with coding: it powers my work but makes me question my sleep schedule. -->
+<!-- - I decided to pursue a Master’s degree because I wanted to understand why my own scripts from professional work sometimes got executed "by chance." -->
 - I secretly enjoy debugging more than coding.
 <!-- - I’ve learned over five programming languages, but somehow, I still leave the syntax part to GitHub Copilot. -->
-- I can watch any sport, but playing them is where I draw the line.
+<!-- - I can watch any sport, but playing them is where I draw the line. -->
 - I use ChatGPT for picking the perfect pineapple at the store.
 
 # I Dream Of
 
 - Staying curious.
 - Continually improving.
-- Finding the ultimate playlist that fits every mood.
+- Reading as many books as possible
+- Fewer software updates on my work laptop.
 
 <!-- # Websites from People I Admire
 

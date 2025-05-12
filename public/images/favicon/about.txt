@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Tilt Neon
+- Font Title: League Spartan
 - Font Author: undefined
-- Font Source: https://fonts.gstatic.com/s/tiltneon/v10/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquXK9WualJ9DS.ttf
+- Font Source: https://fonts.gstatic.com/s/leaguespartan/v11/kJEnBuEW6A0lliaV_m88ja5Twtx8BWhtkDVmjZvM_oTpBMdcFguczA.ttf
 - Font License: undefined)

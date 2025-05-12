@@ -10,32 +10,32 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/Dheeraj-2645',
+    link: 'https://github.com/DhanushRavuri',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/kodakandla.dheeraj/',
+    link: 'https://www.facebook.com/dhanush.ravuri.7',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'https://www.instagram.com/dheeraj_10.17/',
+    link: 'https://www.instagram.com/ravuridhanush/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/dheerajkodakandla/',
+    link: 'https://www.linkedin.com/in/dhanush-ravuri/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://x.com/heisen_berg_10',
+    link: 'https://x.com/DhanushRavuri',
     label: 'Twitter',
     icon: faTwitter,
   },
   {
-    link: 'mailto:dheerajkodakandla10@gmail.com',
+    link: 'mailto:ravuridhanush@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

@@ -5,7 +5,7 @@ const Age = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('2001-07-22T19:30:00');
+    const birthTime = new Date('2000-09-15T02:30:00');
     setAge(((Date.now() - birthTime) / divisor).toFixed(11));
   };
 
@@ -33,7 +33,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'State College, PA',
+    value: 'Amherst, Massachusetts',
   },
   {
     key: 'Languages',
@@ -43,22 +43,22 @@ const data = [
   {
     key: 'Experience',
     label: 'Years of Professional Experience',
-    value: '2',
+    value: '3',
   },
   {
     key: 'Favorite Programming Language',
     label: 'Favorite Programming Language',
-    value: 'GoLang',
+    value: 'Java',
   },
   {
     key: 'companies',
     label: 'Companies worked with',
-    value: '4',
+    value: '3',
   },
   {
     key: 'MastersGPA',
     label: "Master's GPA",
-    value: '4.0',
+    value: 'NA',
   },
 ];
 
