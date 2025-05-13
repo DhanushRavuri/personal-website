@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 import Main from '../layouts/Main';
 
@@ -31,9 +34,22 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2>
-            <Link to="resume">Resume</Link>
-          </h2>
+          <div className="resume-title-container" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <h2 style={{ margin: 0, display: 'flex', alignItems: 'center' }}>
+              <Link to="resume">Resume</Link>
+            </h2>
+            <a
+              href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+              download="Dhanush_Ravuri_Resume.pdf"
+              className="download-resume-link"
+              style={{
+                display: 'flex', textDecoration: 'none', alignItems: 'center', color: 'inherit',
+              }}
+              title="Download Resume"
+            >
+              <FontAwesomeIcon icon={faDownload} />
+            </a>
+          </div>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

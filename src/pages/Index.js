@@ -24,17 +24,23 @@ const Index = () => (
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, {' '}
+        Welcome to my website. Please feel free to read {' '}
+        <Link to="/about">about me</Link>, or view my{' '}
+        <Link to="/resume">resume section</Link> / {' '}
+        <a
+          href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+          download="Dhanush_Ravuri_Resume.pdf"
+        >
+          download my resume (PDF)
+        </a>
         {/* <Link to="/projects">projects</Link>,{' '} */}
-        view <Link to="/stats">site statistics</Link>, or{' '}
+        , view <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
       <p>
         {' '}
         Source available{' '}
-        <a href="https://github.com/DhanushRavuri/personal-website">here</a>.
+        <a href="/personal-website">here</a>.
       </p>
     </article>
   </Main>
