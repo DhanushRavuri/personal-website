@@ -22,7 +22,8 @@
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
-    ]
+    ],
+    "exclude": ["/Resume.pdf"]
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
