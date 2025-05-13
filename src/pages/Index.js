@@ -28,7 +28,7 @@ const Index = () => (
         <Link to="/about">about me</Link>, or view my{' '}
         <Link to="/resume">resume section</Link> / {' '}
         <a
-          href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+          href="https://drive.google.com/uc?export=download&id=1f-NOiUAtu27bxTZFvCknM2Ow6ztXxpL0"
           download="Dhanush_Ravuri_Resume.pdf"
         >
           download my resume (PDF)

@@ -39,7 +39,7 @@ const Resume = () => (
               <Link to="resume">Resume</Link>
             </h2>
             <a
-              href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+              href="https://drive.google.com/uc?export=download&id=1f-NOiUAtu27bxTZFvCknM2Ow6ztXxpL0"
               download="Dhanush_Ravuri_Resume.pdf"
               className="download-resume-link"
               style={{
