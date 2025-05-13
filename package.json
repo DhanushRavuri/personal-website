@@ -23,7 +23,7 @@
       "--no-sandbox",
       "--disable-setuid-sandbox"
     ],
-    "skipRequests": ["/personal-website/Resume.pdf"]
+    "ignoredPaths": ["/personal-website/Resume.pdf"]
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
