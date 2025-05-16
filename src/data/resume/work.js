@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'Flipkart Internet Private Limited',
-    position: 'Software Development Engineer - II',
+    position: 'Software Development Engineer - 2',
     url: 'https://www.linkedin.com/company/flipkart',
     startDate: '2022-06-08',
     endDate: '2025-08-5',

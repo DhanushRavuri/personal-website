@@ -1,6 +1,6 @@
 # Intro
 
-I am a SDE-II at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., and will be joining the University of Massachusetts Amherst as a Master’s student in Computer Science starting Fall 2025.
+I am a SDE-2 at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., and will be joining the University of Massachusetts Amherst as a Master’s student in Computer Science starting Fall 2025.
 
 # Experience Timeline
 - **Sep 2025 – May 2027**  
