@@ -18,6 +18,9 @@ I am a SDE-2 at Flipkart Internet Private Limited, a subsidiary of Walmart Inc.,
 - **Jun 2021 – Aug 2021**  
   _Deep Learning Intern @ Spur.fit_
 
+- **Dec 2019 – Feb 2020**  
+  _Core Team Member @ Models and Robotics Section, IIT Roorkee_
+
 - **Jul 2018 – May 2022**  
   _B.Tech in Mechanical Engineering @ IIT Roorkee_
 
@@ -38,6 +41,7 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - Clean code
 - How to Write Unmaintainable Code
 - Design Patterns (Gang of Four)
+- Designing Data-Intensive Applications
 
 # I Like
 

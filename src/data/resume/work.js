@@ -22,11 +22,11 @@ const work = [
     Founded in 2007 and now a subsidiary of Walmart Inc., Flipkart serves hundreds of millions of customers and is known for innovations like cash-on-delivery, 
     easy returns, and Big Billion Days. It plays a key role in shaping the digital retail experience in India.`,
     highlights: [
-      'Implemented a non-blocking image similarity service using Spring WebFlux, leveraging Redis to retrieve 500K+ embedding vectors per request and performing top-K matching on top of it via Locality-Sensitive Hashing (LSH) using Spark MLlib within 2000ms, with Kafka-based fault-tolerant auditing.',
-      'Benchmarked Qdrant, Milvus, and ElasticSearch for vector search performance; Integrated Qdrant for its fast ANN search using HNSW indexing, reducing p99 from 2000ms to 75ms under 5 QPS load and improving accuracy from 88% to 96%.',
-      'Upgraded a microservice from Java 8 to 17, refactoring with streams, optionals, lambdas, and records, and optimised the garbage collection by migrating from G1GC to ZGC after extensive GC tuning and analysis of JFR dumps, GC logs, and runtime metrics under varying traffic conditions, ultimately resulting in an 13% reduction in latency at 150 QPS.',
-      'Developed a Spring Boot-based config management service performing CRUD on client configs via REST APIs with MySQL, implementing RBAC and promotion/rollback workflows, including a cron job refreshing in-memory configs every 5 minutes.',
-      'Built a Spark-based backtesting application using historical data from HBase to validate updates to business rules, features, and ML models, evaluating 10 million rows (1 day’s data) in under 10 minutes while also supporting concurrent evaluations.',
+      'Achieved $350K in annual cost savings by implementing a non-blocking image similarity platform searching over 10M+ embedding vectors for top-K matches within 200ms, leveraging Spring WebFlux, Redis, Spark MLlib (LSH), and Kafka.',
+      'Optimized vector search, cutting p99 latency from 200ms to 75ms at 150 QPS, improving accuracy from 88% to 96%, by transitioning from LSH-based architecture to Qdrant database after benchmarking against Milvus and ElasticSearch.',
+      'Delivered a 13% reduction in microservice latency at 180 QPS by upgrading from Java 8 to 17 and optimizing garbage collection via G1GC to ZGC migration, driven by GC analysis.',
+      'Developed a config management service, leveraging Spring Boot to perform CRUD operations via REST APIs and MySQL, implementing RBAC, promotion/rollback workflows, and a cron job for 5-minute in-memory config refresh.',
+      'Built a Spark-based backtesting application processing 12M+ rows (1 day’s data) from HBase in under 10min for evaluating updates to rule configs, feature configs, and ML model configs, publishing summary reports to GCS.',
       'Managed the end-to-end datacenter migration of a 480TB Hadoop cluster across 50+ nodes, covering Hadoop, HBase, Hive, Yarn and Zookeeper components. Also migrated team-managed HBase to central offering without any downtime, involving 60+ tables, 10+ applications, and over 300TB of data.',
     ],
   },
@@ -40,7 +40,7 @@ const work = [
     to deliver personalized workout experiences. It focuses on enabling users to track their fitness goals with 
     innovative solutions like real-time motion analysis, repetition counting, and privacy-enhanced live video processing.`,
     highlights: [
-      'Improved the accuracy of exercise pose classification models by 10% by building a custom CNN model on top of body keypoints extracted from PoseNet and MoveNet, enhancing the distinction between starting and ending exercise positions, and enabling more accurate repetition counting.',
+      'Improved exercise pose classification model accuracy by 18% through building a custom CNN model on top of body keypoints extracted from PoseNet and MoveNet, refining exercise phase detection for accurate repetition counting.',
       'Integrated real-time human background segmentation in live workout videos using OpenCV, employing GrabCut and background subtraction to enhance user privacy.',
     ],
   },
