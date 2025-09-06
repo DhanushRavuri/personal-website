@@ -190,6 +190,11 @@ const skills = [
     category: ['Languages'],
   },
   {
+    title: 'Go',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
     title: 'Java',
     competency: 4,
     category: ['Languages', 'Java'],
