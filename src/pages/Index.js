@@ -32,7 +32,7 @@ const Index = () => (
         Google Analytics recorded your view. Thanks for stopping by!👋
       </p>
       <p>
-        <img src={`${PUBLIC_URL}/images/umass-amherst.JPG`} alt="" style={{ width: '800px', height: 'auto', borderRadius: '8px' }} />
+        <img src={`${PUBLIC_URL}/images/umass-amherst.jpg`} alt="" style={{ width: '800px', height: 'auto', borderRadius: '8px' }} />
       </p>
     </article>
   </Main>
