@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+const { PUBLIC_URL } = process.env;
+
 const Index = () => (
   <Main
     description={
@@ -11,17 +13,6 @@ const Index = () => (
     }
   >
     <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2>
-            <Link to="/">About this site</Link>
-          </h2>
-          <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
-          </p>
-        </div>
-      </header>
       <p>
         {' '}
         Welcome to my website. Please feel free to read {' '}
@@ -41,9 +32,7 @@ const Index = () => (
         Google Analytics recorded your view. Thanks for stopping by!👋
       </p>
       <p>
-        {' '}
-        Source available{' '}
-        <a href="/personal-website">here</a>.
+        <img src={`${PUBLIC_URL}/images/umass-amherst.JPG`} alt="" style={{ width: '800px', height: 'auto', borderRadius: '8px' }} />
       </p>
     </article>
   </Main>

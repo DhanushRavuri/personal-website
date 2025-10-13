@@ -13,7 +13,7 @@
  */
 const work = [
   {
-    name: 'Flipkart Internet Private Limited',
+    name: 'Flipkart Internet Private Limited (a Walmart subsidiary)',
     position: 'Software Development Engineer - 2',
     url: 'https://www.linkedin.com/company/flipkart',
     startDate: '2022-06-08',
@@ -22,12 +22,12 @@ const work = [
     Founded in 2007 and now a subsidiary of Walmart Inc., Flipkart serves hundreds of millions of customers and is known for innovations like cash-on-delivery, 
     easy returns, and Big Billion Days. It plays a key role in shaping the digital retail experience in India.`,
     highlights: [
-      'Achieved $350K in annual cost savings by implementing a non-blocking image similarity platform searching over 10M+ embedding vectors for top-K matches within 200ms, leveraging Spring WebFlux, Redis, Spark MLlib (LSH), and Kafka.',
-      'Optimized vector search, cutting p99 latency from 200ms to 75ms at 150 QPS, improving accuracy from 88% to 96%, by transitioning from LSH-based architecture to Qdrant database after benchmarking against Milvus and ElasticSearch.',
-      'Delivered a 13% reduction in microservice latency at 180 QPS by upgrading from Java 8 to 17 and optimizing garbage collection via G1GC to ZGC migration, driven by GC analysis.',
-      'Developed a config management service, leveraging Spring Boot to perform CRUD operations via REST APIs and MySQL, implementing RBAC, promotion/rollback workflows, and a cron job for 5-minute in-memory config refresh.',
-      'Built a Spark-based backtesting application processing 12M+ rows (1 day’s data) from HBase in under 10min for evaluating updates to rule configs, feature configs, and ML model configs, publishing summary reports to GCS.',
-      'Managed the end-to-end datacenter migration of a 480TB Hadoop cluster across 50+ nodes, covering Hadoop, HBase, Hive, Yarn and Zookeeper components. Also migrated team-managed HBase to central offering without any downtime, involving 60+ tables, 10+ applications, and over 300TB of data.',
+      'Achieved $350K annual cost savings by implementing a high-throughput Redis powered Image-Similarity-Platform searching over 10M+ image embeddings for top-K matches, attaining p99 within 200ms.',
+      'Improved accuracy of Image-Similarity-Platform from 88% to 96%, by transitioning from LSH-based architecture to Qdrant vector database, after benchmarking Milvus and Elasticsearch, reducing p99 latency from 200ms to 75ms at 150 QPS.',
+      'Delivered a 13% improvement in Fraud-Recommendation-Engine service latency at 180 QPS by upgrading from Java 8 to 17 and optimizing JVM performance by G1GC to ZGC migration using JFR and Prometheus.',
+      'Developed a centralized configuration management service using Spring Boot and MySQL for deployment-free configuration updates, exposing CRUD via REST APIs, with RBAC, promotion/rollback, and a Cron for 5 minutes configuration refresh.',
+      'Built a backtesting application with Apache Spark processing 12M+ daily records from HBase in under 10 minutes, enabling rapid performance evaluation of updates to configuration files, with auto-published summary reports to GCS.',
+      'Led the end-to-end data center migration of a 480TB Hadoop cluster across 50+ nodes; Also migrated team-managed HBase to central offering without any downtime, involving 60+ tables, 10+ applications, and over 300TB of data.',
     ],
   },
   {
@@ -40,8 +40,8 @@ const work = [
     to deliver personalized workout experiences. It focuses on enabling users to track their fitness goals with 
     innovative solutions like real-time motion analysis, repetition counting, and privacy-enhanced live video processing.`,
     highlights: [
-      'Improved exercise pose classification model accuracy by 18% through building a custom CNN model on top of body keypoints extracted from PoseNet and MoveNet, refining exercise phase detection for accurate repetition counting.',
-      'Integrated real-time human background segmentation in live workout videos using OpenCV, employing GrabCut and background subtraction to enhance user privacy.',
+      'Improved exercise pose classification model accuracy by 18% through building a custom CNN model on top of body key-points extracted from PoseNet and MoveNet, refining exercise phase detection for accurate repetition counting.',
+      'Integrated real-time human background segmentation in live workout videos using OpenCV, employing MOG2 background subtraction and GrabCut, achieving 24 FPS at 720p and masking 94% of background pixels to enhance user privacy.',
     ],
   },
   {
@@ -53,7 +53,7 @@ const work = [
     summary: `The 10x Academy is an intensive coding bootcamp designed to transform individuals into industry-ready software developers. 
     It offers hands-on training in data structures, algorithms, and full-stack development through real-world projects and personalized mentorship.`,
     highlights: [
-      'Mentored around 200 students in improving their problem solving skills and conceptual clarifications on DSA and full stack development.',
+      'Mentored around 200 students in improving their problem solving skills and conceptual clarifications on DSA and Web development.',
       'Lectured solutions regularly and conducted one-to-one interactive sessions to effectively facilitate their learning and growth.',
     ],
   },
