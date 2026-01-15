@@ -125,6 +125,11 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
+      title: 'Aerospike',
+      competency: 3,
+      category: ['Web Development', 'Databases'],
+    },
+  {
     title: 'Kubernetes',
     competency: 4,
     category: ['Tools'],

@@ -22,12 +22,13 @@ const work = [
     Founded in 2007 and now a subsidiary of Walmart Inc., Flipkart serves hundreds of millions of customers and is known for innovations like cash-on-delivery, 
     easy returns, and Big Billion Days. It plays a key role in shaping the digital retail experience in India.`,
     highlights: [
-      'Achieved $350K annual cost savings by implementing a high-throughput Redis powered Image-Similarity-Platform searching over 10M+ image embeddings for top-K matches, attaining p99 within 200ms.',
-      'Improved accuracy of Image-Similarity-Platform from 88% to 96%, by transitioning from LSH-based architecture to Qdrant vector database, after benchmarking Milvus and Elasticsearch, reducing p99 latency from 200ms to 75ms at 150 QPS.',
-      'Delivered a 13% improvement in Fraud-Recommendation-Engine service latency at 180 QPS by upgrading from Java 8 to 17 and optimizing JVM performance by G1GC to ZGC migration using JFR and Prometheus.',
-      'Developed a centralized configuration management service using Spring Boot and MySQL for deployment-free configuration updates, exposing CRUD via REST APIs, with RBAC, promotion/rollback, and a Cron for 5 minutes configuration refresh.',
-      'Built a backtesting application with Apache Spark processing 12M+ daily records from HBase in under 10 minutes, enabling rapid performance evaluation of updates to configuration files, with auto-published summary reports to GCS.',
-      'Led the end-to-end data center migration of a 480TB Hadoop cluster across 50+ nodes; Also migrated team-managed HBase to central offering without any downtime, involving 60+ tables, 10+ applications, and over 300TB of data.',
+      'Built a centralized configuration management service with CRUD via REST APIs, RBAC, and promotion/rollback, supporting deployment-free updates across 100+ services, cutting update time by 90%.',
+      'Architected an asynchronous feature store service to decouple data aggregation from the main service, consolidating 100+ attributes per request from 25+ clients, reducing latency by 33%.',
+      'Developed an high-throughput image similarity service performing top-K search over 10M+ image embeddings with p99 < 200ms, achieving $350K annual savings.',
+      'Designed a backtesting application using Apache Spark to process 12M+ daily audit records in under 10 minutes, enabling rapid evaluation of configuration updates with automated reports to GCS.',
+      'Implemented image similarity service on vector database after comparative benchmarking, improving accuracy 88% to 96% and reducing p99 latency from 200ms to 75ms at 150 QPS.',
+      'Reduced fraud recommendation service latency by 13% at 180 QPS through Java 17 upgrade and JVM optimization.',
+      'Migrated team-managed HBase to a central offering, involving 60+ tables, 10+ applications, and 300TB+ data.',
     ],
   },
   {
@@ -40,8 +41,8 @@ const work = [
     to deliver personalized workout experiences. It focuses on enabling users to track their fitness goals with 
     innovative solutions like real-time motion analysis, repetition counting, and privacy-enhanced live video processing.`,
     highlights: [
-      'Improved exercise pose classification model accuracy by 18% through building a custom CNN model on top of body key-points extracted from PoseNet and MoveNet, refining exercise phase detection for accurate repetition counting.',
-      'Integrated real-time human background segmentation in live workout videos using OpenCV, employing MOG2 background subtraction and GrabCut, achieving 24 FPS at 720p and masking 94% of background pixels to enhance user privacy.',
+      'Built a pose classification model using PoseNet and MoveNet to identify workout poses and phases, improving accuracy by 18% and enabling precise repetition counting.',
+      'Integrated real-time human background segmentation in live workout videos, sustaining 24 FPS on 720p streams while masking 94% of background pixels to enhance user privacy.',
     ],
   },
   {
