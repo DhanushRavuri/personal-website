@@ -21,15 +21,15 @@ const data = [
       + '• Ensured high fault tolerance and memory efficiency, correctly reaching consensus with up to 2 node failures, supporting dozens of concurrent instances, and safely garbage-collecting forgotten instances to reduce memory usage.',
   },
   {
-      title: 'Polling Application',
-      subtitle: 'Javascript, Node.js, Express.js, MongoDB, Redis, JWT, AWS S3, Firebase',
-      link: 'https://github.com/polls-org',
-      image: '/images/projects/BTP.png',
-      date: '2022-04-10',
-      desc:
-        '• Implemented a polling application supporting real-time poll creation and voting, with time and location based analytics dashboards, validated at scale through load testing with 1,000+ simulated users.\n'
-        + '• Architected AI infrastructure, automating poll generation using LLM pipelines and building a recommendation system with Deep learning–based semantic, collaborative, and content filtering, evaluating across 10K+ polls.',
-    },
+    title: 'Polling Application',
+    subtitle: 'Javascript, Node.js, Express.js, MongoDB, Redis, JWT, AWS S3, Firebase',
+    link: 'https://github.com/polls-org',
+    image: '/images/projects/BTP.png',
+    date: '2022-04-10',
+    desc:
+      '• Implemented a polling application supporting real-time poll creation and voting, with time and location based analytics dashboards, validated at scale through load testing with 1,000+ simulated users.\n'
+      + '• Architected AI infrastructure, automating poll generation using LLM pipelines and building a recommendation system with Deep learning–based semantic, collaborative, and content filtering, evaluating across 10K+ polls.',
+  },
   // {
   //   title: 'Cat Detector',
   //   subtitle: 'A convolutional neural network to classify cats! (and dogs)',
