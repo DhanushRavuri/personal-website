@@ -58,7 +58,7 @@ const data = [
   {
     key: 'MastersGPA',
     label: "Master's GPA",
-    value: 'NA',
+    value: '3.8',
   },
 ];
 

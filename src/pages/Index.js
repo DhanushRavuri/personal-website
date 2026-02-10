@@ -13,27 +13,57 @@ const Index = () => (
     }
   >
     <article className="post" id="index">
-      <p>
-        {' '}
-        Welcome to my website. Please feel free to read {' '}
-        <Link to="/about">about me</Link>, or view my{' '}
-        <Link to="/resume">resume section</Link> / {' '}
-        <a
-          href="https://drive.google.com/uc?export=download&id=1f-NOiUAtu27bxTZFvCknM2Ow6ztXxpL0"
-          download="Dhanush_Ravuri_Resume.pdf"
-        >
-          download my resume (PDF)
-        </a>
-        {/* <Link to="/projects">projects</Link>,{' '} */}
-        , view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
-      </p>
-      <p>
-        Google Analytics recorded your view. Thanks for stopping by!👋
-      </p>
-      <p>
-        <img src={`${PUBLIC_URL}/images/umass-amherst.jpg`} alt="" style={{ width: '800px', height: 'auto', borderRadius: '8px' }} />
-      </p>
+
+      {/* 1. FLEX CONTAINER: Holds the text and image side-by-side */}
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
+
+        {/* 2. LEFT COLUMN: Contains all text and links */}
+        <div style={{ paddingRight: '20px' }}>
+          <div>
+            Welcome to my website. Feel free to explore:<br />
+            <Link to="/about">About me</Link><br />
+            <a
+              href="https://leetcode.com/u/Dhanush_Ravuri_UMass/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LeetCode
+            </a><br />
+            <a
+              href="https://codeforces.com/profile/dhanushrrr79"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Codeforces
+            </a><br />
+            <Link to="/resume">Resume section</Link><br />
+            <a
+              href="https://drive.google.com/file/d/1f-NOiUAtu27bxTZFvCknM2Ow6ztXxpL0/view?usp=drive_open"
+              download="Dhanush_Ravuri_Resume.pdf"
+            >
+              Resume (PDF)
+            </a><br />
+            <Link to="/projects">Projects</Link><br />
+            <Link to="/stats">Site statistics</Link><br />
+            <Link to="/contact">Contact me</Link>
+          </div>
+
+          <p style={{ marginTop: '50px', fontStyle: 'italic' }}>
+            Google Analytics recorded your view. Thanks for stopping by! 👋
+          </p>
+        </div>
+
+        {/* 3. RIGHT COLUMN: Contains the image */}
+        <div>
+          <img
+            src={`${PUBLIC_URL}/images/umass-amherst.jpg`}
+            alt=""
+            style={{ width: '530px', height: 'auto', borderRadius: '8px' }}
+          />
+        </div>
+
+      </div>
+
     </article>
   </Main>
 );
