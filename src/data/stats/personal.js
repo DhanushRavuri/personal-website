@@ -53,7 +53,7 @@ const data = [
   {
     key: 'companies',
     label: 'Companies worked with',
-    value: '3',
+    value: '4',
   },
   {
     key: 'MastersGPA',

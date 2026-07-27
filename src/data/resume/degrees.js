@@ -3,7 +3,7 @@ const degrees = [
     school: 'The University of Massachusetts, Amherst',
     degree: 'M.S. Computer Science',
     link: 'https://www.umass.edu/',
-    year: 2027,
+    year: 2026,
   },
   {
     school: 'Indian Institute of Technology Roorkee',

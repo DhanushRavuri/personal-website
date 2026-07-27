@@ -13,11 +13,26 @@
  */
 const work = [
   {
+    name: 'Western Digital',
+    position: 'Software Engineering Intern',
+    url: 'https://www.linkedin.com/company/western-digital',
+    startDate: '2026-05-18',
+    endDate: '2026-08-14',
+    summary: `Western Digital is a global leader in data storage, designing and manufacturing flash and hard drive
+    technologies that power everything from personal devices to hyperscale data centers. Its firmware and validation
+    teams operate at the intersection of low-level systems engineering and large-scale telemetry analysis.`,
+    highlights: [
+      'Architected a LangGraph agent that leverages a custom parser and multi-step reasoning to unify 9+ SSD log formats into a correlated timeline, categorizing firmware failures and reducing manual triage from 2-3 hours to 10 minutes per failure.',
+      'Implemented a hybrid RAG pipeline, combining Qdrant vector search over historical bug reports, structured failure-pattern retrieval from Amazon Aurora, and MCP-based retrieval from Jira/Confluence, improving failure-categorization accuracy from 64% to 87%.',
+      'Designed the agent’s data layer using SQLite to isolate every triage run, storing metadata, and failure classifications for later lookup.',
+    ],
+  },
+  {
     name: 'Flipkart Internet Private Limited (a Walmart subsidiary)',
-    position: 'Software Development Engineer - 2',
+    position: 'Software Development Engineer II',
     url: 'https://www.linkedin.com/company/flipkart',
     startDate: '2022-06-08',
-    endDate: '2025-08-5',
+    endDate: '2025-08-05',
     summary: `Flipkart is one of India's largest e-commerce platforms, offering a wide range of products across categories like electronics, fashion, home, and groceries. 
     Founded in 2007 and now a subsidiary of Walmart Inc., Flipkart serves hundreds of millions of customers and is known for innovations like cash-on-delivery, 
     easy returns, and Big Billion Days. It plays a key role in shaping the digital retail experience in India.`,
@@ -33,7 +48,7 @@ const work = [
   },
   {
     name: 'Spur.fit',
-    position: 'Deep Learning Engineer Intern',
+    position: 'Deep Learning Intern',
     url: 'https://www.linkedin.com/company/spur-fit',
     startDate: '2021-06-01',
     endDate: '2021-08-31',

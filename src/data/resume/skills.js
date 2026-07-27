@@ -35,8 +35,23 @@ const skills = [
     category: ['Databases'],
   },
   {
-    title: 'Qdrant',
+    title: 'PostgreSQL',
+    competency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'SQLite',
     competency: 3,
+    category: ['Databases'],
+  },
+  {
+    title: 'Amazon Aurora',
+    competency: 3,
+    category: ['Databases', 'Cloud'],
+  },
+  {
+    title: 'Qdrant',
+    competency: 4,
     category: ['Databases'],
   },
   {
@@ -88,6 +103,16 @@ const skills = [
     title: 'Maven + Gradle',
     competency: 4,
     category: ['Tools'],
+  },
+  {
+    title: 'CMake',
+    competency: 3,
+    category: ['Tools'],
+  },
+  {
+    title: 'gRPC + Protobuf',
+    competency: 4,
+    category: ['Tools', 'Frameworks'],
   },
   {
     title: 'Git + GitHub',
@@ -170,6 +195,21 @@ const skills = [
     category: ['ML Engineering', 'Python', 'Data Science'],
   },
   {
+    title: 'LangGraph',
+    competency: 4,
+    category: ['ML Engineering', 'Python', 'Frameworks'],
+  },
+  {
+    title: 'Model Context Protocol (MCP)',
+    competency: 4,
+    category: ['ML Engineering', 'Python', 'Frameworks'],
+  },
+  {
+    title: 'AWS Bedrock',
+    competency: 3,
+    category: ['Cloud', 'ML Engineering', 'Tools'],
+  },
+  {
     title: 'Jupyter',
     competency: 3,
     category: ['Data Science', 'Python', 'Data Science'],
@@ -198,6 +238,21 @@ const skills = [
     title: 'Go',
     competency: 3,
     category: ['Languages'],
+  },
+  {
+    title: 'Scala',
+    competency: 3,
+    category: ['Languages', 'Big Data', 'Data Engineering'],
+  },
+  {
+    title: 'Groovy',
+    competency: 3,
+    category: ['Languages', 'Java'],
+  },
+  {
+    title: 'MATLAB',
+    competency: 2,
+    category: ['Languages', 'Data Science'],
   },
   {
     title: 'Java',

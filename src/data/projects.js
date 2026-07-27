@@ -11,6 +11,16 @@ const data = [
       + '• Optimized system performance to support up to 2ˆ10 (1024) concurrent clients and manage up to 2ˆ16 (65,536) concurrently open files, by applying token-based synchronization, client-side LRU caching, and multithreaded processing with Pthreads.',
   },
   {
+    title: 'Disk-Based Database Engine',
+    subtitle: 'C++, PostgreSQL',
+    image: '/images/projects/IITRMS.png',
+    link: 'https://github.com/DhanushRavuri',
+    date: '2026-04-20',
+    desc:
+      '• Engineered the storage layer of a database engine with an LRU buffer manager, heap-file table storage, and a B+-Tree index supporting inserts, deletes, and range scans, achieving 1 ms point-lookup latency on a 6M-row table.\n'
+      + '• Implemented a database query execution engine with relational operators for scanning, sorting, aggregation, and joins, then performance-tuned TPC-H query plans to run within a 64 MB memory limit.',
+  },
+  {
     title: 'Paxos Library',
     subtitle: 'Go, net/rpc',
     link: 'https://github.com/DhanushRavuri/Paxos',
