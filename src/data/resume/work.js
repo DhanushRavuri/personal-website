@@ -13,6 +13,17 @@
  */
 const work = [
   {
+    name: 'Amazon Web Services',
+    position: 'Software Engineering Intern',
+    url: 'https://aws.amazon.com/',
+    startDate: '2026-09',
+    endDate: '2026-12',
+    summary: 'Palo Alto, CA, USA · Technologies: C++, Amazon Redshift',
+    highlights: [
+      'Working on query optimization and performance improvements for Amazon Redshift’s distributed data warehouse.',
+    ],
+  },
+  {
     name: 'Western Digital',
     position: 'Software Engineering Intern',
     url: 'https://www.linkedin.com/company/western-digital',

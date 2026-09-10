@@ -25,7 +25,10 @@ const SideBar = () => (
         Hi, I&apos;m Dhanush. I am a Master&apos;s student in{' '}
         <a href="https://www.cics.umass.edu/academics/ms-computer-science-campus">Computer Science at the University of Massachusetts, Amherst</a>, starting in Fall 2025, and an alumnus of {' '}
         <a href="https://www.iitr.ac.in/">IIT Roorkee</a>. I&apos;m passionate about backend development, distributed systems, and artificial intelligence.
-        I previously worked as an SDE-2 at {' '}
+        I&apos;m currently a Software Engineering Intern at {' '}
+        <a href="https://aws.amazon.com/">Amazon Web Services</a> in Palo Alto,
+        working on query optimization and performance improvements for Amazon Redshift.
+        I previously interned at Western Digital and worked as an SDE-2 at {' '}
         <a href="https://www.linkedin.com/company/flipkart/">Flipkart Internet Private Limited</a>,
         a subsidiary of
         <a href="https://www.linkedin.com/company/walmart"> Walmart Inc.</a>,

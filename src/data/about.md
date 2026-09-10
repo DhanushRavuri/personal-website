@@ -1,8 +1,11 @@
 # Intro
 
-I am a Master’s student in Computer Science at the University of Massachusetts Amherst, graduating in December 2026. Most recently I worked as a Software Engineering Intern at Western Digital, and before that I spent three years at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., as an SDE-2.
+I am a Master’s student in Computer Science at the University of Massachusetts Amherst, graduating in December 2026. I am currently a Software Engineering Intern at Amazon Web Services in Palo Alto, working on query optimization and performance improvements for Amazon Redshift’s distributed data warehouse using C++. Previously, I interned at Western Digital and spent three years at Flipkart Internet Private Limited, a subsidiary of Walmart Inc., as an SDE-2.
 
 # Experience Timeline
+- **Sep 2026 – Dec 2026**<br />
+  _Software Engineering Intern @ Amazon Web Services — Palo Alto, CA, USA_
+
 - **Sep 2025 – Dec 2026**  
   _Master's in Computer Science @ The University of Massachusetts, Amherst_
 
@@ -37,6 +40,7 @@ I am a Master’s student in Computer Science at the University of Massachusetts
 - Soon after two years, I was promoted to SDE2 for designing and implementing critical features and driving measurable team impact. This role gave me the opportunity to own key components, boost system performance, and deliver results under tight timelines.
 - In 2025, I decided to pursue a Master’s in Computer Science at The University of Massachusetts, Amherst, to deepen my understanding of core computer science concepts and further enhance my technical expertise.
 - In the summer of 2026, I interned at Western Digital in Sacramento, where I built a LangGraph agent and a hybrid RAG pipeline that cut SSD firmware failure triage from hours down to minutes.
+- In September 2026, I joined Amazon Web Services in Palo Alto as a Software Engineering Intern, working with C++ on query optimization and performance improvements for Amazon Redshift’s distributed data warehouse.
 
 Ask me in person for other stories that I'm afraid to share with the internet.
 
